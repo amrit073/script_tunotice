@@ -4,8 +4,8 @@ Sends notifications if new notice is posted in www.tuiost.edu.np
 TO INSTALL:
 <br>
 <code>
-  git clone https://github.com/amrit073/script_tunotice.git <br>
-  cd script_tunotice <br>
-  chmod +x install.sh <br>
-  ./install.sh <br>
+  git clone https://github.com/amrit073/script_tunotice.git </code>
+  <code>cd script_tunotice </code>
+  <code>chmod +x install.sh </code>
+  <code>./install.sh <br>
 </code>
