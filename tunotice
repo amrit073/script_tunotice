@@ -10,7 +10,7 @@ final_notice="$(curl https://www.tuiost.edu.np/ | grep 'b class' | cut -d '>' -f
 if [[ $init_notice != $final_notice ]]
 then 
 	notify-send TU-NOTICE "$final_notice"
-	aplay ~/datentime/notify.wav
+	aplay ~/notify.wav
 	init_notice=$final_notice
 else
 	echo same
